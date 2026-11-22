@@ -1,0 +1,49 @@
+# Desafío de Limpieza de Datos con Pandas
+
+## Descripción del proyecto
+
+Este proyecto consiste en realizar un proceso de limpieza y análisis exploratorio de datos (EDA) utilizando Python y Pandas.
+
+El objetivo es identificar problemas de calidad en los datos, corregir inconsistencias, investigar valores atípicos y explorar patrones dentro de un conjunto de datos académicos.
+
+## Herramientas utilizadas
+
+- Python
+- Pandas
+- Seaborn
+- Matplotlib
+- Jupyter Notebook
+
+## Proceso de limpieza de datos
+
+Se realizaron las siguientes actividades:
+
+- Inspección de la estructura y los tipos de datos.
+- Identificación de valores faltantes.
+- Detección de registros duplicados.
+- Corrección de inconsistencias en variables categóricas.
+- Identificación e investigación de valores atípicos mediante el método IQR.
+
+## Análisis exploratorio de datos
+
+- Cálculo de estadísticas descriptivas.
+- Agrupación y agregación de datos mediante `groupby()`.
+- Comparación de media y mediana.
+- Análisis de datos por semestre.
+- Visualización de tendencias a través del tiempo.
+
+## Principales hallazgos
+
+- El semestre Fall presentó el mayor promedio de estudiantes de pregrado.
+- En Spring se identificó un posible valor atípico en el año 2010, con 41,033 estudiantes de pregrado.
+- Al excluir temporalmente esta observación, el promedio de Spring pasó de 23,110.95 a 22,115.28.
+- El valor atípico fue investigado, pero no eliminado automáticamente del conjunto de datos.
+
+## Contenido del repositorio
+
+- `data_cleaning_challenge.ipynb`: Notebook de Jupyter con el proceso de limpieza y análisis.
+- `data.csv`: Archivo CSV original utilizado en el ejercicio.
+
+## Conclusión
+
+Este proyecto permitió poner en práctica técnicas de limpieza de datos, análisis exploratorio, interpretación estadística y visualización mediante Python y sus principales bibliotecas de análisis de datos.
